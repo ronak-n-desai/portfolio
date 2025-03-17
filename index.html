@@ -106,7 +106,7 @@
 				<ul class="copyright">
 					<li>&copy; Ronak Desai. All rights reserved</li>
 					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					<li id="timestamp">Last Modified: </li>
+					<!--<li id="timestamp">Last Modified: </li>-->
 				</ul>
 			</div>
 		</footer>
@@ -121,8 +121,8 @@
 	<script src="assets/js/main.js"></script>
 
 	<script>
-		var dateArrStr = Date(document.lastModified).split(' ')
-		var lastModified = "Last Modified: " + dateArrStr[0] + " " + dateArrStr[1] + " " + dateArrStr[2] + " " + dateArrStr[3];
+		let dateArrStr = Date(document.lastModified).split(' ');
+		let lastModified = "Last Modified: " + dateArrStr[0] + " " + dateArrStr[1] + " " + dateArrStr[2] + " " + dateArrStr[3];
 		document.getElementById("timestamp").innerHTML = lastModified;
 	</script>
 
